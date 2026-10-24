@@ -122,7 +122,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-094 | `parris-tech-services/joshos-stage0` | QUEUED | — |
 | GRA-095 | `parris-tech-services/joshplatform` | QUEUED | — |
 | GRA-096 | `parris-tech-services/joshreading` | QUEUED | — |
-| GRA-097 | `parris-tech-services/kaseyafieldops` | QUEUED | — |
+| GRA-097 | `parris-tech-services/kaseyafieldops` | REVIEW_RUNNING | [FieldOps tasks](https://github.com/Parris-Tech-Services/KaseyaFieldOps/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md) |
 | GRA-098 | `parris-tech-services/kkc-adventure` | QUEUED | — |
 | GRA-099 | `parris-tech-services/lantern-road` | QUEUED | — |
 | GRA-100 | `parris-tech-services/lifehub` | QUEUED | — |
@@ -250,6 +250,13 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 - Central task doc [docs/OUTSTANDING_WORK_2026-10-24.md](https://github.com/Parris-Tech-Services/DadLANControlCentre/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md), latest commit `66f2ccd7ef77df4b953aa1b79728d04b980c1fd4`; `DLC-GR-001`–`DLC-GR-014`. Review task 001 VERIFIED COMPLETE, 13 remediation/verification tasks OPEN. Pre-existing TASK-072–074 preserved.
 - **Agent start** `DLC-GR-002`: review potentially sensitive real workplace networking details in public training examples; validate authorisation and replace with fictional examples if needed. This is **risk triage**, not a proven exploit.
 - Original Greptile findings mapped to 5 unique tasks: existing `DLC-GR-002` for P1 security/privacy; new `DLC-GR-011`–`DLC-GR-014` for four P2 quality/testing issues, each linked to actual inline comments. All five initially UNADDRESSED. Verification includes re-reading the committed task document and Greptile analytics (5 findings, 1 P1 + 4 P2). No code changes, remediation, or CI passes are claimed.
+
+## Kaseya FieldOps — in-progress review
+
+- Greptile PR #2 run `35001994`, head `c5c1de85b21729fb3c4ed5d6ac0ed4af8e57be55` initially REVIEWING_FILES; final result not yet known.
+- Project task doc [OUTSTANDING_WORK_2026-10-24.md](https://github.com/Parris-Tech-Services/KaseyaFieldOps/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md), commit `839879b878f4d4832dc2c3ec421a6a7651be525f`, new `KFO-GR-001`–`KFO-GR-010` OPEN; original TASK-086–087 unchanged.
+- Agent start `KFO-GR-002`: compare related DadLAN networking curriculum and review findings, validate and correct only confirmed shared issues; `KFO-GR-003` handles public privacy risk.
+- Add distinct numbered findings and mark TASKS_COMMITTED only after complete review and a re-fetch of the updated source.
 
 ## Limitations
 
