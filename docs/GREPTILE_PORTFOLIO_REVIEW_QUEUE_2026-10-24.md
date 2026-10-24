@@ -90,7 +90,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-034 | `parris-tech-services/coldfluapp` | TASKS_COMMITTED | [ColdFluApp TODO](https://github.com/Parris-Tech-Services/ColdFluApp/blob/main/TODO.md) |
 | GRA-035 | `parris-tech-services/dadlancontrolcentre` | TASKS_COMMITTED | [DadLAN tasks](https://github.com/Parris-Tech-Services/DadLANControlCentre/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md) |
 | GRA-036 | `parris-tech-services/dadlansubnettingscenarios` | QUEUED | — |
-| GRA-037 | `parris-tech-services/dcscompanion` | QUEUED | — |
+| GRA-037 | `parris-tech-services/dcscompanion` | REVIEW_RUNNING | [PR #2, Greptile 35081981](https://github.com/Parris-Tech-Services/DCSCompanion/pull/2) |
 | GRA-038 | `parris-tech-services/dcspd` | QUEUED | — |
 | GRA-039 | `parris-tech-services/dcspd-vlsmstudio` | QUEUED | — |
 | GRA-040 | `parris-tech-services/dcsprep` | QUEUED | — |
@@ -292,6 +292,14 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 - `GRA-024`: [PR #42](https://github.com/Parris-Tech-Services/BucklandBlocks/pull/42) has Greptile completed run `34999411`, 5/5 and no actionable findings; it ONLY reviewed the numbering changes, not gameplay code. Original PR #42 merged at `87b5f47dc994f592bd6badfac6e29d1bdd9cfa2e`.
 - New project-local Greptile triage IDs **`BKG-001`–`BKG-005`** have been committed on branch `docs/buckland-greptile-triage-20261025` at `bf7f5f961a9a84146492eecc4ddf4a68914fe06d` and accepted through [PR #43](https://github.com/Parris-Tech-Services/BucklandBlocks/pull/43), **MERGED** into `main` as `d8155c29129a35a52b65c095a7700b5256bd4219`. Both required checks (Game Release Gate and Buckland Blocks quality gate) reported SUCCESS before merge; task IDs `BKG-001`–`BKG-005` were re-read on `main`. `BKG-001` completed (docs review), `BKG-002` the next real source-code review job; original audio tasks `TASK-00148`–`00150` unchanged.
 - `DOC_REVIEW_ONLY` means Buckland has a documented review but does **not** count as a substantive source-code audit; keep it open for a code-bearing diff or accurately marked `BLOCKED_NO_PR`.
+
+
+## DCSCompanion — review running (GRA-037)
+
+- **Canonical repo:** [Parris-Tech-Services/DCSCompanion](https://github.com/Parris-Tech-Services/DCSCompanion), default `main` (`ebc4cc1e1b77811525aebedb87c1200fdf351467` at initial read). Public repo. No `AGENTS.md` or central engineering TODO file found in the complete 163-entry `main` tree; existing in-app `src/data/taskTracker.ts` is not a project work tracker. Preserve the existing open [PR #2](https://github.com/Parris-Tech-Services/DCSCompanion/pull/2) and issue #2.
+- **Selected review surface:** PR #2, `feat/msp-networking-reference`, exact head `5046eb8518af66e71ca8c3128a4ee227bb95eac7`; four changed files, including new networking curriculum and KB presentation. Chosen ahead of lower-risk apps because the public school-support KB may contain staff/network operational details and has Ask DCS LLM retrieval exposure. This is **risk to investigate**, not a verified data breach.
+- **Greptile:** triggered **once**, review ID `35081981`; status `REVIEWING_FILES` at last poll. No earlier Greptile review for this PR; do not retrigger. Poll `get_code_review(35081981)` until COMPLETED/FAILED; validate current PR lines and duplicate task IDs before creating a central task tracker and recording findings. PR-diff review is **not** whole-codebase coverage.
+- **First next action:** poll existing review `35081981`. Do not select another repo while this review is running. No fixes, tests or deployments claimed.
 
 ## Limitations
 
