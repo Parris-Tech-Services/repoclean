@@ -60,7 +60,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-032 | `parris-tech-services/clearcore` | QUEUED | — |
 | GRA-033 | `parris-tech-services/code-cleaner` | QUEUED | — |
 | GRA-034 | `parris-tech-services/coldfluapp` | TASKS_COMMITTED | [ColdFluApp TODO](https://github.com/Parris-Tech-Services/ColdFluApp/blob/main/TODO.md) |
-| GRA-035 | `parris-tech-services/dadlancontrolcentre` | REVIEW_RUNNING | [DadLAN tasks](https://github.com/Parris-Tech-Services/DadLANControlCentre/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md) |
+| GRA-035 | `parris-tech-services/dadlancontrolcentre` | TASKS_COMMITTED | [DadLAN tasks](https://github.com/Parris-Tech-Services/DadLANControlCentre/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md) |
 | GRA-036 | `parris-tech-services/dadlansubnettingscenarios` | QUEUED | — |
 | GRA-037 | `parris-tech-services/dcscompanion` | QUEUED | — |
 | GRA-038 | `parris-tech-services/dcspd` | QUEUED | — |
@@ -246,10 +246,10 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 
 ## DadLAN Control Centre — review in progress, numbered handoff saved
 
-- Greptile PR #3 review run `35001261` accepted, reviewed head `45e3afbe804708c22cf81f5274988b94ff4bef75`; **final status/findings pending** as of tracker edit.
-- Central task doc [docs/OUTSTANDING_WORK_2026-10-24.md](https://github.com/Parris-Tech-Services/DadLANControlCentre/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md), commit `65b87451bb78eccdba99b47ade9665376db4bd85`; `DLC-GR-001`–`DLC-GR-010` all OPEN. Pre-existing TASK-072–074 preserved.
+- Greptile PR #3 review run `35001261` accepted, reviewed head `45e3afbe804708c22cf81f5274988b94ff4bef75`; **COMPLETED** 2026-10-24 09:57 UTC; 5 findings (1×P1, 4×P2) and code-review suggestions posted.
+- Central task doc [docs/OUTSTANDING_WORK_2026-10-24.md](https://github.com/Parris-Tech-Services/DadLANControlCentre/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md), latest commit `66f2ccd7ef77df4b953aa1b79728d04b980c1fd4`; `DLC-GR-001`–`DLC-GR-014`. Review task 001 VERIFIED COMPLETE, 13 remediation/verification tasks OPEN. Pre-existing TASK-072–074 preserved.
 - **Agent start** `DLC-GR-002`: review potentially sensitive real workplace networking details in public training examples; validate authorisation and replace with fictional examples if needed. This is **risk triage**, not a proven exploit.
-- On completion: inspect real Greptile findings and append additional unique task IDs without changing earlier ones, then mark this queue row `TASKS_COMMITTED` only after the final run and task conversion are verified.
+- Original Greptile findings mapped to 5 unique tasks: existing `DLC-GR-002` for P1 security/privacy; new `DLC-GR-011`–`DLC-GR-014` for four P2 quality/testing issues, each linked to actual inline comments. All five initially UNADDRESSED. Verification includes re-reading the committed task document and Greptile analytics (5 findings, 1 P1 + 4 P2). No code changes, remediation, or CI passes are claimed.
 
 ## Limitations
 
