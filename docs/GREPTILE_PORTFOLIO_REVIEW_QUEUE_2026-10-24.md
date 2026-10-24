@@ -122,7 +122,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-094 | `parris-tech-services/joshos-stage0` | QUEUED | — |
 | GRA-095 | `parris-tech-services/joshplatform` | QUEUED | — |
 | GRA-096 | `parris-tech-services/joshreading` | QUEUED | — |
-| GRA-097 | `parris-tech-services/kaseyafieldops` | REVIEW_RUNNING | [FieldOps tasks](https://github.com/Parris-Tech-Services/KaseyaFieldOps/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md) |
+| GRA-097 | `parris-tech-services/kaseyafieldops` | TASKS_COMMITTED | [FieldOps tasks](https://github.com/Parris-Tech-Services/KaseyaFieldOps/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md) |
 | GRA-098 | `parris-tech-services/kkc-adventure` | QUEUED | — |
 | GRA-099 | `parris-tech-services/lantern-road` | QUEUED | — |
 | GRA-100 | `parris-tech-services/lifehub` | QUEUED | — |
@@ -253,10 +253,10 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 
 ## Kaseya FieldOps — in-progress review
 
-- Greptile PR #2 run `35001994`, head `c5c1de85b21729fb3c4ed5d6ac0ed4af8e57be55` initially REVIEWING_FILES; final result not yet known.
-- Project task doc [OUTSTANDING_WORK_2026-10-24.md](https://github.com/Parris-Tech-Services/KaseyaFieldOps/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md), commit `839879b878f4d4832dc2c3ec421a6a7651be525f`, new `KFO-GR-001`–`KFO-GR-010` OPEN; original TASK-086–087 unchanged.
+- Greptile PR #2 run `35001994`, head `c5c1de85b21729fb3c4ed5d6ac0ed4af8e57be55`, **COMPLETED** 2026-10-24 10:05 UTC; 6 published findings (2 P1, 4 P2) all initially UNADDRESSED.
+- Project task doc [OUTSTANDING_WORK_2026-10-24.md](https://github.com/Parris-Tech-Services/KaseyaFieldOps/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md), latest commit `465198ddf6cef95396969e819a9df4eebd58d829`, `KFO-GR-001`–`KFO-GR-015`, review task 001 VERIFIED COMPLETE; 14 engineering/verification items OPEN; original TASK-086–087 unchanged.
 - Agent start `KFO-GR-002`: compare related DadLAN networking curriculum and review findings, validate and correct only confirmed shared issues; `KFO-GR-003` handles public privacy risk.
-- Add distinct numbered findings and mark TASKS_COMMITTED only after complete review and a re-fetch of the updated source.
+- Findings triage: P1 progress/review ID collision `KFO-GR-011`; P1 browser test breakage `KFO-GR-012`; P2 LDAP/routing/ICMP factual errors `KFO-GR-013`–`015`; P2 missing renderer tests mapped to existing `KFO-GR-005` with Greptile comment. Review and task counts verified by provider analytics and re-reading the commit. Agent starts with `KFO-GR-011` → `012`. No code fixes/tests/deploy are claimed.
 
 ## Limitations
 
