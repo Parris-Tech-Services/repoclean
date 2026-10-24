@@ -60,7 +60,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-032 | `parris-tech-services/clearcore` | QUEUED | — |
 | GRA-033 | `parris-tech-services/code-cleaner` | QUEUED | — |
 | GRA-034 | `parris-tech-services/coldfluapp` | TASKS_COMMITTED | [ColdFluApp TODO](https://github.com/Parris-Tech-Services/ColdFluApp/blob/main/TODO.md) |
-| GRA-035 | `parris-tech-services/dadlancontrolcentre` | QUEUED | — |
+| GRA-035 | `parris-tech-services/dadlancontrolcentre` | REVIEW_RUNNING | [DadLAN tasks](https://github.com/Parris-Tech-Services/DadLANControlCentre/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md) |
 | GRA-036 | `parris-tech-services/dadlansubnettingscenarios` | QUEUED | — |
 | GRA-037 | `parris-tech-services/dcscompanion` | QUEUED | — |
 | GRA-038 | `parris-tech-services/dcspd` | QUEUED | — |
@@ -242,6 +242,14 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 - **Task doc:** [ColdFluApp TODO.md](https://github.com/Parris-Tech-Services/ColdFluApp/blob/main/TODO.md), commit `1452bdfb54f85723771d97b815ffe3893a64fc61` with `GRT-001`–`GRT-012`; 1 review task completed, 11 engineering/release tasks still OPEN.
 - **Agent start:** `GRT-002` (reconcile overlapping Dependabot updates #18/#37/#39), then GRT-003 private research auth and GRT-004 medical publication gates. A clean PR review is not proof full repo or other PRs safe.
 - **Current state:** `TASKS_COMMITTED`; code changes, CI/release validation, native KB index and automatic future review remain unverified.
+
+
+## DadLAN Control Centre — review in progress, numbered handoff saved
+
+- Greptile PR #3 review run `35001261` accepted, reviewed head `45e3afbe804708c22cf81f5274988b94ff4bef75`; **final status/findings pending** as of tracker edit.
+- Central task doc [docs/OUTSTANDING_WORK_2026-10-24.md](https://github.com/Parris-Tech-Services/DadLANControlCentre/blob/main/docs/OUTSTANDING_WORK_2026-10-24.md), commit `65b87451bb78eccdba99b47ade9665376db4bd85`; `DLC-GR-001`–`DLC-GR-010` all OPEN. Pre-existing TASK-072–074 preserved.
+- **Agent start** `DLC-GR-002`: review potentially sensitive real workplace networking details in public training examples; validate authorisation and replace with fictional examples if needed. This is **risk triage**, not a proven exploit.
+- On completion: inspect real Greptile findings and append additional unique task IDs without changing earlier ones, then mark this queue row `TASKS_COMMITTED` only after the final run and task conversion are verified.
 
 ## Limitations
 
