@@ -2,7 +2,7 @@
 
 **Scope:** 163 repositories visible in Greptile and 45 other repositories visible to linked GitHub accounts but not the connected Greptile organisation, 208 unique repository identities in this snapshot. This is not proven exhaustive across every GitHub owner/account. Queue ID `GRA-NNN` is a stable tracking ID for the **repository review job**; it is not a replacement for existing in-repository task IDs.
 
-**Current run**: `parris-tech-services/coldfluapp` (Greptile PR #18, run `35000660`, initially running). Earlier pilots: Repository Town and Eleven Realms reviews completed; their **fixes are not complete**.
+**Latest completed run**: `parris-tech-services/coldfluapp` (Greptile PR #18, run `35000660`, no actionable PR-diff findings; numbered agent tasks committed). Earlier pilots: Repository Town and Eleven Realms reviews completed; their **fixes are not complete**.
 
 ## Workflow: exactly one repo at a time
 
@@ -59,7 +59,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-031 | `parris-tech-services/chronos` | QUEUED | — |
 | GRA-032 | `parris-tech-services/clearcore` | QUEUED | — |
 | GRA-033 | `parris-tech-services/code-cleaner` | QUEUED | — |
-| GRA-034 | `parris-tech-services/coldfluapp` | REVIEW_RUNNING | [ColdFluApp TODO](https://github.com/Parris-Tech-Services/ColdFluApp/blob/main/TODO.md) |
+| GRA-034 | `parris-tech-services/coldfluapp` | TASKS_COMMITTED | [ColdFluApp TODO](https://github.com/Parris-Tech-Services/ColdFluApp/blob/main/TODO.md) |
 | GRA-035 | `parris-tech-services/dadlancontrolcentre` | QUEUED | — |
 | GRA-036 | `parris-tech-services/dadlansubnettingscenarios` | QUEUED | — |
 | GRA-037 | `parris-tech-services/dcscompanion` | QUEUED | — |
@@ -234,6 +234,14 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-206 | `topsecretcheese-del/carGame` | BLOCKED_PROVIDER_ACCESS | — |
 | GRA-207 | `topsecretcheese-del/customCars` | BLOCKED_PROVIDER_ACCESS | — |
 | GRA-208 | `topsecretcheese-del/gregGame` | BLOCKED_PROVIDER_ACCESS | — |
+
+
+## ColdFluApp — audit job completed to tasks, not fixed
+
+- **PR review:** [#18](https://github.com/Parris-Tech-Services/ColdFluApp/pull/18), Greptile `35000660`, completed 24 October 2026, confidence 5/5, no actionable findings in reviewed diff.
+- **Task doc:** [ColdFluApp TODO.md](https://github.com/Parris-Tech-Services/ColdFluApp/blob/main/TODO.md), commit `1452bdfb54f85723771d97b815ffe3893a64fc61` with `GRT-001`–`GRT-012`; 1 review task completed, 11 engineering/release tasks still OPEN.
+- **Agent start:** `GRT-002` (reconcile overlapping Dependabot updates #18/#37/#39), then GRT-003 private research auth and GRT-004 medical publication gates. A clean PR review is not proof full repo or other PRs safe.
+- **Current state:** `TASKS_COMMITTED`; code changes, CI/release validation, native KB index and automatic future review remain unverified.
 
 ## Limitations
 
