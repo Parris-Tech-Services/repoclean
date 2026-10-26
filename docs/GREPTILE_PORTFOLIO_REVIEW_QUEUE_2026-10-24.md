@@ -118,7 +118,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-062 | `parris-tech-services/fable-atlas` | QUEUED | — |
 | GRA-063 | `parris-tech-services/faithhub` | QUEUED | — |
 | GRA-064 | `parris-tech-services/familytree` | QUEUED | — |
-| GRA-065 | `parris-tech-services/fedoracrashdoctor` | QUEUED | — |
+| GRA-065 | `parris-tech-services/fedoracrashdoctor` | REVIEW_RUNNING | [Existing TODO](https://github.com/Parris-Tech-Services/FedoraCrashDoctor/blob/main/TODO.md) |
 | GRA-066 | `parris-tech-services/fieldnotes` | QUEUED | — |
 | GRA-067 | `parris-tech-services/forbiddenquests` | QUEUED | — |
 | GRA-068 | `parris-tech-services/forgegrid` | QUEUED | — |
@@ -310,6 +310,12 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 - **Task persistence:** Added unique `SVA-GR-001`–`SVA-GR-008` to the existing `docs/OUTSTANDING_WORK_2026-10-24.md` on documentation branch `docs/greptile-sylvieapp-20261026` (task commit `6c83a268d496dd81acb7b5d7a47f2b900ed2bc69`; checkpoint `bbb9eef100864c71962389c32db9c5c7a0d348ec`), proposed as [documentation PR #3](https://github.com/Parris-Tech-Services/SylvieApp/pull/3), **OPEN / NOT MERGED**. Re-fetched all eight sequential IDs: only `SVA-GR-001` checked for completed review; seven remain open. Original twelve `TASK-001`–`TASK-012` remain untouched and unchecked, and parent `SVA-008` remains open in the detailed register.
 - **CI acceptance blocker:** [PR #2 SVA-008 audit runs](https://github.com/Parris-Tech-Services/SylvieApp/actions/runs/40140692562) `40140316230`, `40140688238`, `40140692562` each report `completed/failure`; earlier checkpoint reported inaccessible logs/artifacts. **Do not infer damaged MP3s or claim a 362/362 decode pass.** `SVA-GR-005` owns diagnosis; `SVA-GR-006` owns parent `SVA-008` suitability acceptance; `007` re-review and `008` closeout.
 - **Next source agent:** `SVA-GR-002` → `003` → `004` after checking existing PR #2 claim and test/CI access. No app code, recordings, tests or deployment changed by this portfolio audit. Do not merge source PR #2 until test/child-content acceptance is evidenced.
+
+## FedoraCrashDoctor — existing Greptile run resumed (GRA-065)
+
+- **Existing run (do not duplicate):** Greptile review `35547564` on [PR #3](https://github.com/Parris-Tech-Services/FedoraCrashDoctor/pull/3), reviewed head `e9bf8ecf223f66018dd206978ecdb01cc68d4ee4`. Found in provider `REVIEWING_FILES` on 26 October 2026 at approximately 21:29 UTC; originally started `2026-10-26T21:25:38.810Z`. This is an existing review, **not triggered by this queue worker**.
+- **Review surface:** 11-file PR diff, source `feat/stability-io-guard-2026-10-19` targeting `fix/stability-verification-2026-10-19`; not a whole-repository audit. Repo README identifies `Parris-Tech-Services/FedoraCrashDoctor` as canonical; existing central worklist `TODO.md` has unnumbered priorities, no `AGENTS.md` at root. Parallel work claimed in PR description; avoid modifying application source.
+- **Next action:** Poll `35547564` to `COMPLETED`/`FAILED`, inspect inline comments and line-level source; allocate distinct `FCD-GR-NNN` tasks only for independently validated actionable findings in existing `TODO.md`, preserving all original work. Re-fetch source task document and update this row with actual review result, task IDs and commit. No fixes/tests/merge/deployment are implied.
 
 ## Limitations
 
