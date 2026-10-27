@@ -123,7 +123,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-065 | `parris-tech-services/fedoracrashdoctor` | TASKS_COMMITTED | [FCD-GR-001–010 on main](https://github.com/Parris-Tech-Services/FedoraCrashDoctor/blob/main/TODO.md) |
 | GRA-066 | `parris-tech-services/fieldnotes` | QUEUED | — |
 | GRA-067 | `parris-tech-services/forbiddenquests` | QUEUED | — |
-| GRA-068 | `parris-tech-services/forgegrid` | QUEUED | — |
+| GRA-068 | `parris-tech-services/forgegrid` | REVIEW_RUNNING | [ForgeGrid acceptance/task register](https://github.com/Parris-Tech-Services/ForgeGrid/blob/main/ACCEPTANCE_TESTS.md) |
 | GRA-069 | `parris-tech-services/forgegrid-control` | QUEUED | — |
 | GRA-070 | `parris-tech-services/game-booster` | QUEUED | — |
 | GRA-071 | `parris-tech-services/gentlemovement` | QUEUED | — |
@@ -327,3 +327,10 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 - A successful trigger confirms only the queue request; verify the completed run and actual inline comments.
 - Some accessible GitHub accounts may have more repositories beyond this snapshot; periodically reconcile connected installations.
 - Respect per-provider credit and budget limits, and never auto-merge or alter protected health content without review.
+
+## ForgeGrid GRA-068 — review dispatch checkpoint (28 October 2026)
+
+- **Canonical source:** `Parris-Tech-Services/ForgeGrid` `main`; no root `AGENTS.md` or `TODO.md` found. Existing `ACCEPTANCE_TESTS.md` is the task/acceptance handoff surface; preserve its 14 requirements.
+- **Review surface:** existing [PR #13](https://github.com/Parris-Tech-Services/ForgeGrid/pull/13), draft security-gates diff, branch `fix/structured-execution-security-gates-v2`, one commit ahead and zero behind `main` at dispatch. **PR diff only, not a whole-codebase audit.**
+- **Greptile review:** `35971251`, reviewed head `be08bcb1b6873d6cfa3e09d80b77c1ad4f8e4a1a`, status `REVIEWING_FILES` when checkpointed. No duplicate review is authorised; resume this ID before any further trigger.
+- **Next:** poll `35971251` to terminal status, validate line-level findings against reviewed source, add unique `FG-GR` numbered tasks to the existing acceptance document, re-fetch and update this queue to `TASKS_COMMITTED` or `REVIEW_FAILED`. No fixes/tests/merge/deployment claimed.
