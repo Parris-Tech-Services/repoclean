@@ -8,6 +8,9 @@
 
 **Previously processed repository**: `parris-tech-services/forgegrid` (`GRA-068`), existing [PR #13](https://github.com/Parris-Tech-Services/ForgeGrid/pull/13) Greptile run `35971251` **COMPLETED** (11 findings, 10 provider P1 and 1 P2; consolidated into 10 engineering tasks `FG-GR-002`–`011` plus `FG-GR-001` review handoff). Source task commit `545eab78305fa69f69f534535473c2b7ba9fbe8b` is on `docs/greptile-security-handoff-20261028`, **not merged to protected main**; 11 unique open tasks verified. No fixes/tests claimed. Previously processed: `parris-tech-services/fedoracrashdoctor` (`GRA-065`), resuming existing **REVIEW_RUNNING** Greptile PR #3 run `35547564` to **COMPLETED** (2 P1 and 7 P2 findings; `FCD-GR-001`–`010` persisted on canonical `main` at commit `67086271dbca696fef9a7578e3f44044ccc997f9`). No duplicate review triggered; no code fixes claimed. Previously processed: SylvieApp (`GRA-148`), DCSCompanion, ColdFluApp, Repository Town and Eleven Realms. No duplicate review was triggered. Earlier processed repositories include DCSCompanion, ColdFluApp, Repository Town and Eleven Realms; **findings remain open**, not fixed.
 
+
+**1 November 2026 — ResearchGems (GRA-139):** No running Greptile reviews found in PENDING/REVIEWING_FILES/GENERATING_SUMMARY. Reused completed PR #2 review `36500707` at head `d0ce18c9636a97010586fc74066096435e7b1f10`, confidence 4/5, one P2 mislabelled-source-button finding. Verified `ResearchLibrary.tsx:99` still said Google Drive for a GitHub source, corrected generic label on canonical main commit `b672a2578042fc55df771834fa66724045f0ff1f`, source read back. Three unique tasks `RGM-GR-001–003` committed to [canonical tracker](https://github.com/Parris-Tech-Services/ResearchGems/blob/main/docs/OUTSTANDING_WORK_2026-11-01.md) at `cbe02d03f06b0856f7e097e1cf102d93c9a490c6`. One bookkeeping task checked; P2 fix and CI acceptance remain OPEN until tests/browser/deployment are independently verified. No new review credit spent. The 150 QUEUED snapshot is now at most 149, subject to later queue changes.
+
 ## Portfolio-wide numbered execution tasks — GRC series (25 October 2026)
 
 **Agent entrypoint:** Search this document's stable **`GRA-NNN`** repository audit IDs for review jobs, and use **`GRC-NNN`** below *only for programme-wide work*. Every discovered Greptile finding already has a task ID in the relevant repository; **do not allocate duplicate repair IDs**. Within a repo, follow its listed first task and prerequisite/claim/branch rules. Greptile recommendations remain open until reproduced/validated, repaired and tested. A documentation-only review is not a game-code audit.
@@ -198,7 +201,7 @@ Select next repo by **known high-stakes user impact, real changes requiring revi
 | GRA-136 | `parris-tech-services/repository-town` | REVIEWED_FINDINGS_OPEN | [Town task docs](https://github.com/joshualparris/JoshMemory/blob/docs%2Ftown-number-unnumbered-tasks-20261024/repository-town/docs/UNNUMBERED_TODO_IDS_2026-10-24.md) |
 | GRA-137 | `parris-tech-services/repository-town-playtest` | QUEUED | — |
 | GRA-138 | `parris-tech-services/researchatlas` | QUEUED | — |
-| GRA-139 | `parris-tech-services/researchgems` | QUEUED | — |
+| GRA-139 | `parris-tech-services/researchgems` | TASKS_COMMITTED | [RGM-GR-001–003 on main](https://github.com/Parris-Tech-Services/ResearchGems/blob/main/docs/OUTSTANDING_WORK_2026-11-01.md); reused Greptile PR #2 review 36500707, one P2; source fix b672a25, task commit cbe02d0, no browser/build PASS |
 | GRA-140 | `parris-tech-services/rothfuss-kkc-adventure` | QUEUED | — |
 | GRA-141 | `parris-tech-services/rothfussmaps` | QUEUED | — |
 | GRA-142 | `parris-tech-services/schism` | QUEUED | — |
